@@ -14,8 +14,9 @@
             "type": "java",
             "name": "Debug (Launch)-App<GameOfLife>",
             "request": "launch",
-            "mainClass": "app.App",
-            "projectName": "GameOfLife"
+            "mainClass": "app.Main",
+            "projectName": "GameOfLife",
+            "vmArgs": "--module-path %JAVA_FX% --add-modules javafx.controls"
         }
     ]
 }
